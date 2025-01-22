@@ -74,3 +74,10 @@ console.log(inventairePotions[inventairePotions.length - 1]);
 for (let i = 0; i < inventairePotions.length; i++) {
   console.log(inventairePotions[i]);
 }
+
+inventairePotions.push("Mushroom");
+
+console.log("Nouvelle inventaire des potions :", inventairePotions);
+
+inventairePotions.pop(3);
+console.log("Inventaire remis à jour :", inventairePotions);
