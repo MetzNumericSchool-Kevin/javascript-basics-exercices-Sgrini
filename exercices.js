@@ -52,3 +52,14 @@ console.log(
   prix_total,
   "mon cher Aventurier."
 );
+
+let bourse_aventurier = 10;
+let quantite_potion_demandee = 3;
+if (bourse_aventurier >= quantite_potion) {
+  console.log("Tu as assez d'argent.");
+  bourse_aventurier -= prix_total;
+  console.log("Il te reste" + bourse_aventurier + "pièces.");
+} else {
+  console.log("Tu n'as pas assez d'argent pour acheter les potions.");
+  console.log("Il te manques" + prix_total - bourse_aventurier + "pièces.");
+}
