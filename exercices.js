@@ -41,3 +41,14 @@ switch (choix) {
       "Mh... Désolé avnturier, je ne comprends pas ce que tu souhaites. Refais ton choix !"
     );
 }
+
+let quantite_potion = parseInt(prompt("Combien de potions voulez vous ?"));
+const prix_total = quantite_potion * prix_potion;
+
+console.log(
+  "Prix de",
+  prix_potion,
+  "par potions de soins : ",
+  prix_total,
+  "mon cher Aventurier."
+);
