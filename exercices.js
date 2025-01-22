@@ -64,6 +64,13 @@ if (bourse_aventurier >= quantite_potion) {
   console.log("Il te manques" + prix_total - bourse_aventurier + "pièces.");
 }
 
-let inventairePotions = ["LaShield", "Lelixir", "Liode"];
+let inventairePotions = ["Shield", "Elixir", "Liode"];
 
 console.log("Inventaire des potions du Shop:", inventairePotions);
+console.log("Première potion :", inventairePotions[0]);
+console.log(inventairePotions.length);
+console.log(inventairePotions[inventairePotions.length - 1]);
+
+for (let i = 0; i < inventairePotions.length; i++) {
+  console.log(inventairePotions[i]);
+}
