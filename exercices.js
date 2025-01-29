@@ -81,3 +81,11 @@ console.log("Nouvelle inventaire des potions :", inventairePotions);
 
 inventairePotions.pop(3);
 console.log("Inventaire remis à jour :", inventairePotions);
+
+let potion_soin = {
+  nom: "Life",
+  prix: 2,
+  stock: 10,
+};
+
+console.log(potion_soin);
