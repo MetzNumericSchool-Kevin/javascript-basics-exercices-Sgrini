@@ -89,3 +89,10 @@ let potion_soin = {
 };
 
 console.log(potion_soin);
+
+const inventaire = ["Shield", "Elixir", "Liode"].map((nom, index) => ({
+  nom: nom,
+  id: index,
+}));
+
+console.log(inventaire);
